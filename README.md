@@ -8,7 +8,7 @@ The demo code for "Stochastic Analysis of SH-Wave Scattering by Multiple Semicir
 The code performs stochastic analysis of surface ground motion for a group of semi‑circular canyons under SH‑wave incidence, accounting for the uncertainty in canyon geometry—namely, the random variability of individual canyon radii and of the spacings between adjacent canyons. By coupling **number‑theoretic point selection**, a **deterministic wave‑function expansion solver**, and **adaptive kernel density estimation**, it efficiently yields the probability density function (PDF), cumulative distribution function (CDF), and statistical descriptors (mean, 95th percentile, coefficient of variation, failure probability) of the surface displacement amplitude.
 
 ![Computational framework](Flowchart.svg)  
-*Fig. 2: Overall analysis framework coupling stochastic simulation with a deterministic scattering solver.*
+*Fig1: Overall analysis framework coupling stochastic simulation with a deterministic scattering solver.*
 
 ### Requirements
 - MATLAB R2019b or later (tested on R2022a)
