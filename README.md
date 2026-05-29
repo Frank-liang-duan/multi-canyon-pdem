@@ -1,4 +1,4 @@
 # multi-canyon-pdem
 PDEM-based stochastic seismic response analysis of valley groups under SH waves
-![Uploading Fig02.png…]()
+![Overall framework](Fig02.png)
 
