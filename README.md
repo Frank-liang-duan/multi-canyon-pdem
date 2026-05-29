@@ -16,6 +16,22 @@ The code performs stochastic analysis of surface ground motion for a group of se
 
 ### Repository Structure
 
+valley-group-pdem/
+├── README.md
+├── LICENSE
+├── MAIN_ANALYSIS.m                       # Master script for all parametric analyses
+├── core/
+│ ├── func_pdem.m                         # Core stochastic analysis routine
+│ ├── generate_canyon_samples.m           # Initial sample generation (Sobol + geometric filter)
+│ ├── post_optimize_samples.m             # Iterative rearrangement under constraints (minimize GF‑discrepancy)
+│ ├── compute_GF_discrepancy.m            # Compute generalized F‑discrepancy
+│ ├── check_overlap.m                     # Non‑overlap geometric compatibility check
+│ ├── compute_displacement_vector3.m      # Deterministic solver for 3 canyons
+│ └── compute_displacement_vectorN.m      # Deterministic solver for arbitrary number of canyons
+├── results/
+│ └── ParamAnalysis_Angle/                # Example output folder (incident angle analysis)
+└── (other result folders are generated automatically when running MAIN_ANALYSIS.m)
+
 ### Installation
 1. Clone the repository:
    ```bash
