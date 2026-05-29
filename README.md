@@ -4,9 +4,7 @@
 
 This repository contains MATLAB code for the paper  
 **"[Paper Title]"** submitted to *Computers & Geosciences*.  
-It implements a stochastic analysis framework that couples **number‑theoretic point selection**, a **deterministic SH‑wave scattering solver**, and **kernel density estimation (KDE)** to quantify the uncertainty of surface ground motion caused by random canyon radii and spacings in a multi‑canyon topography.
-
-> **Note:** Although the ultimate goal is to obtain the probability density function of the response, this method **does not** solve the generalized density evolution equation (GDEE). Instead, it generates representative point sets via low‑discrepancy sequences and assembles the response distribution using adaptive KDE.
+The code performs stochastic analysis of surface ground motion for a group of semi‑circular canyons under SH‑wave incidence. It couples **number‑theoretic point selection**, a **deterministic wave‑function expansion solver**, and **adaptive kernel density estimation** to efficiently compute the probability density function (PDF), cumulative distribution function (CDF), and relevant statistical measures (mean, 95th percentile, coefficient of variation, failure probability) of the displacement amplitude.
 
 ![Computational framework](Flowchart.svg)  
 *Fig. 2: Overall analysis framework coupling stochastic simulation with a deterministic scattering solver.*
