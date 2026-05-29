@@ -1,5 +1,4 @@
-# Stochastic Seismic Response Analysis of Valley Groups Based on Point Estimate and Kernel Density Estimation
-
+# multi-canyon-NTM‑KDE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### What is this repository for?
